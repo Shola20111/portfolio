@@ -5,12 +5,12 @@ import Image1 from 'next/image'
 const Works = () => {
   return (
     <section className='mx-[10%] '>
-        <div>
-            <div className='w-[156px] h-[54px] font-bold text-[44px] leading-[60px] mb-[30px] '>
+        <div className='w-[156px] h-[54px] font-bold text-[44px] leading-[60px] mb-[30px] '>
             Works
             </div>
+        <div className='flex flex-col items-center md:items-start'>
             <CardComp 
-                image={<Image1 src='/assets/imageCard1.png' alt="" width='246' height='180' className='rounded-[6px]' 
+                image={<Image1 src='/assets/imageCard1.png' alt="" width='246' height='180' className='rounded-[6px] w-full' 
                 />} 
                 title='Designing Dashboards' 
                 date='2020' 
@@ -19,7 +19,7 @@ const Works = () => {
             />
                 
             <CardComp 
-                image={<Image1 src='/assets/imageCard2.png' alt="" width='246' height='180' className='rounded-[6px]' 
+                image={<Image1 src='/assets/imageCard2.png' alt="" width='246' height='180' className='rounded-[6px] w-full' 
                 />} 
                 title='Vibrant Portraits of 2020' 
                 date='2018' 
@@ -28,7 +28,7 @@ const Works = () => {
             />
 
             <CardComp 
-                image={<Image1 src='/assets/imageCard3.png' alt="" width='246' height='180' className='rounded-[6px]' 
+                image={<Image1 src='/assets/imageCard3.png' alt="" width='246' height='180' className='rounded-[6px] w-full' 
                 />} 
                 title='36 Days of Malayalam type' 
                 date='2018' 
@@ -37,7 +37,7 @@ const Works = () => {
             />
 
             <CardComp 
-                image={<Image1 src='/assets/imageCard4.png' alt="" width='246' height='180' className='rounded-[6px]' 
+                image={<Image1 src='/assets/imageCard4.png' alt="" width='246' height='180' className='rounded-[6px] w-full' 
                 />} 
                 title='Components' 
                 date='2018' 
