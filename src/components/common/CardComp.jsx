@@ -4,7 +4,7 @@ import React from 'react'
 
 const CardComp = ({ image, title, date, dash, text }) => {
   return (
-    <div className='flex flex-col md:flex md:flex-row gap-[20px] items-center border-b md:w-full w-[400px]  border-[#E0E0E0] pb-4 md:pb-1.5 md:mt-[30px] h-auto'>
+    <div className='flex flex-col md:flex md:flex-row gap-[20px] items-center border-b w-full mx-auto  border-[#E0E0E0] pb-4 md:pb-1.5 md:mt-[30px] h-auto'>
         <div className='md:w-[247px] md:h-[180px] w-[100%] h-[280px] md:mb-5 object-cover mt-5 mb-6 '>
             {image}
         </div>
