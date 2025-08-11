@@ -34,7 +34,7 @@ const HeaderCoponent = () => {
             {
             isOpen?
              <div>
-            <nav className='absolute top-25 left-0 flex flex-col items-center gap-10 bg-white w-full h-screen '>
+            <nav className='absolute top-22 left-0 flex flex-col items-center gap-10 bg-white w-full h-screen '>
                 <Link onClick={toggleIsOpen} className='text-[#000000] text-3xl font-medium cursor-pointer' href='/works'>
                     Works
                 </Link>

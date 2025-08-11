@@ -2,7 +2,7 @@ import React from 'react'
 
 const BlogComp = ({ title, expHandle, date, text }) => {
   return (
-    <section className='w-[500px] md:w-full flex flex-col justify-center border-b border-[#E0E0E0] mt-[40px] '>
+    <section className='w-[400px] md:w-full flex flex-col justify-center border-b border-[#E0E0E0] mt-[40px] '>
         
         <div className='mx-auto'>
             <div><h1 className='w-full md:w-[682px] h-auto font-bold  text-30 text-[#21243D]'>{title}</h1></div>
