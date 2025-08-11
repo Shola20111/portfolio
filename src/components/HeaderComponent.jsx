@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
+
 const HeaderCoponent = () => {
   return (
     <header className='mx-[10%] flex flex-row items-center justify-end h-[86px]' >
@@ -9,7 +10,7 @@ const HeaderCoponent = () => {
 
             </button>
         </div>
-        <nav className='w-[236px] flex flex-row items-center justify-between hidden border'>
+        <nav className='w-[236px] flex flex-row items-center justify-between'>
             <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='/works'>
                 Works
             </Link>
@@ -19,6 +20,7 @@ const HeaderCoponent = () => {
             <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='/contact'>
                 Contact
             </Link>
+            
         </nav>
     </header>
   )

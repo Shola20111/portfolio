@@ -6,7 +6,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <section className="h-full flex flex-col items-center w-full gap-6">
+   <section className="h-auto flex flex-col items-center w-full gap-10">
+    
     <HeroSection />
     <RecentPost />
     <FeaturedComp />

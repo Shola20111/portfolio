@@ -5,10 +5,10 @@ import TitleComp from '../common/TitleComp'
 
 const FeaturedComp = () => {
   return (
-    <div className=''>
+    <div className='flex flex-col justify-center items-center md:items-start py-1'>
         <TitleComp title='Feature Posts'/>
         <div>
-          <CardComp 
+          <CardComp
             image={<Image1 src='/assets/imageCard1.png' alt="" width='248' height='180' className='rounded-[6px] w-full'
             />} 
             title='Designing Dashboards' 
@@ -17,9 +17,9 @@ const FeaturedComp = () => {
             text='Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.' 
           />
         </div>
-        <div className='hidden sm:block'>
+        <div className='hidden md:block'>
           <CardComp 
-            image={<Image1 src='/assets/imageCard2.png' alt="" width='248' height='180' className='rounded-[6px]' 
+            image={<Image1 src='/assets/imageCard2.png' alt="" width='248' height='180' className='rounded-[6px] w-full' 
             />} 
             title='Vibrant Portraits of 2020' 
             date='2018' 
@@ -27,9 +27,9 @@ const FeaturedComp = () => {
             text='Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'  
           />
         </div>
-        <div className='hidden sm:block'>
+        <div className='hidden md:block'>
           <CardComp 
-            image={<Image1 src='/assets/imageCard3.png' alt="" width='248' height='180' className='rounded-[6px]' 
+            image={<Image1 src='/assets/imageCard3.png' alt="" width='248' height='180' className='rounded-[6px] w-full' 
             />} 
             title='36 Days of Malayalam type' 
             date='2018' 
